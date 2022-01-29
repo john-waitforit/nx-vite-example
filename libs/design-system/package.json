@@ -1,0 +1,12 @@
+{
+  "name": "@nx-vite-example/design-system",
+  "version": "0.0.1",
+  "main": "./design-system.umd.js",
+  "module": "./design-system.es.js",
+  "exports": {
+    ".": {
+      "import": "./design-system.es.js",
+      "require": "./design-system.umd.js"
+    }
+  }
+}

@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "design-system": "libs/design-system",
     "libeoweb": "apps/libeoweb"
   }
 }

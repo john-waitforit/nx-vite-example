@@ -5,6 +5,7 @@
  Delete this file and get started with your project!
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  */
+import { DesignSystem } from '@nx-vite-example/design-system';
 import nxextLogo from './nxext.svg';
 
 export function NxWelcome({ title }: { title: string }) {
@@ -423,6 +424,7 @@ export function NxWelcome({ title }: { title: string }) {
               Welcome {title} 👋
             </h1>
           </div>
+          <DesignSystem />
 
           <div id="hero" className="rounded">
             <div className="text-container">
