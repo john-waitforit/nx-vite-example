@@ -5,7 +5,7 @@
  Delete this file and get started with your project!
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  */
-import { DesignSystem } from '@nx-vite-example/design-system';
+import { Button, DesignSystem } from '@nx-vite-example/design-system';
 import nxextLogo from './nxext.svg';
 
 export function NxWelcome({ title }: { title: string }) {
@@ -425,6 +425,7 @@ export function NxWelcome({ title }: { title: string }) {
             </h1>
           </div>
           <DesignSystem />
+          <Button title='CLICK ME' />
 
           <div id="hero" className="rounded">
             <div className="text-container">
